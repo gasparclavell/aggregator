@@ -1,0 +1,104 @@
+.form-container {
+  /* width: fit-content; */
+  max-width: 650px;
+  min-width: 350px;
+  padding-right: 38px;
+}
+
+form {
+  background-color: white;
+  padding: 40px;
+  /* max-width: 600px; */
+  max-width: 650px;
+  min-width: 350px;
+  /* padding-right: 20px; */
+  margin-top: 5px;
+  padding-top: 22px;
+  padding-right: 24px;
+}
+
+.button-container {
+  width: 97%;
+  text-align: right;
+}
+
+.form-button {
+  background-color: rgb(95, 106, 251);
+  color: white;
+  border-style: none;
+  padding: 12px 45px 12px 45px;
+  border-radius: 3px;
+  margin-top: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+#form-button:hover {
+  background-color: rgb(75, 86, 231);
+}
+.field {
+  width: 97%;
+  height: 38px;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  font-size: 14px;
+}
+.two-fields-subcontainer .field {
+  width: 94%;
+  margin-right: 10px;
+}
+.three-fields-subcontainer .field {
+  width: 88%;
+}
+/* When a field is focused */
+.field:focus {
+  border: 1px solid rgba(75, 86, 231, 1);
+}
+
+.icon-container {
+  position: relative;
+  height: auto;
+}
+
+.icon {
+  position: absolute;
+  right: 35px;
+  top: 10px;
+  font-size: 17px;
+}
+.check {
+  color: rgba(80, 200, 80, 0.75);
+  opacity: 0;
+}
+.times {
+  color: rgba(255, 127, 127, 0.95);
+}
+
+.is-invalid {
+  background-color: rgba(255, 0, 0, 0.01);
+  border: 1px solid rgba(255, 127, 127, 0.9) !important;
+}
+.error-message {
+  color: rgba(255, 80, 80, 0.8);
+  width: 360px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.section-title {
+  /* font-size: 22px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold; */
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: black;
+  font-weight: bold;
+  padding-top: 0px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
